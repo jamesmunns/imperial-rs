@@ -5,6 +5,11 @@ A rusty rewrite of [Empire], based on the [VMS port] that was rewritten in C.
 [Empire]: https://en.wikipedia.org/wiki/Classic_Empire
 [VMS port]: http://www.catb.org/esr/vms-empire/
 
+The classic version of Empire looks a little like this:
+
+![Classic Empire Screenshot - Copyright Chuck Simmons and Eric S. Raymond](./assets/empire-original.png)
+
+
 The plan is to slowly move from the exiting C code base to a fully rust code base. Eventually, I would like the core of the game to be `#![no_std]`, so this could be used by embedded platforms.
 
 
