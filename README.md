@@ -10,7 +10,7 @@ The classic version of Empire looks a little like this:
 ![Classic Empire Screenshot - Copyright Chuck Simmons and Eric S. Raymond](./assets/empire-original.png)
 
 
-The plan is to slowly move from the exiting C code base to a fully rust code base. Eventually, I would like the core of the game to be `#![no_std]`, so this could be used by embedded platforms.
+The plan is to slowly move from the existing C code base to a fully rust code base. Eventually, I would like the core of the game to be `#![no_std]`, so this could be used by embedded platforms.
 
 
 ## License
