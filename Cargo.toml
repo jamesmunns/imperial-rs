@@ -7,11 +7,13 @@ license = "GPL-2.0-only"
 [dependencies]
 structopt = "0.2"
 lazy_static = "1.1.0"
+libc = { version = "0.2", default-features = false }
 
 # Going on an airplane, not sure which one of these I will want
 ncurses = "5"
 cursive = "0.9"
 termion = "1.5"
+gcc = "0.3"
 
 [build-dependencies]
 gcc = "0.3"
